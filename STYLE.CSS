@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0rem;
+    z-index: 1;
+    
+   
+}
+.top {
+    width: 100%;
+    height: 2.5rem;
+    background-color: #726647;
+    
+    position: relative;
+}
+.yellow {
+    color: #ffff00;
+}
+.top-h2 {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    color: white;
+}
+.middle {
+    width: 100%;
+    height: 4rem;
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0% 5%;
+}
+.middle div {
+    display: inline-block;
+    width: 30%;
+}
+.middle div ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 0.8rem;
+    font-size: 1.4rem;
+}
+.middle div ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.focus {
+    position: relative;
+    top: 1.3rem;
+    left: 20%;
+    height: 40px;
+}
+
+.icons i {
+    position: relative;
+    right: 0rem;
+    margin: 0rem 1rem;
+    color: black;
+    left: 15rem;
+    font-size: 1.4rem;
+}
+.bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 130px;
+    width: 100%;
+    position: relative;
+    
+}
+.bottom ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.5rem;
+    font-size: 1.4rem;
+}
+.bottom ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+.bottom ul {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.main {
+    width: 90%;
+    height: 100%;
+    margin: 18rem auto;
+}
+
+.content-h1 {
+    color: #3c3c3c;
+}
+.content-main ul li {
+    list-style: none;
+    line-height: 2rem;
+}
+.photos {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    
+}
+.photo {
+    width: 21.5%;
+    height: 40rem;
+    /* border: 1px solid black; */
+    float: left;
+    margin: 1% 3% 4% 0%;
+    
+}
+.img {
+    width: 100%;
+    height: 85%;
+    /* border: 2px solid black; */
+    position: relative;
+}
+.para {
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid black; */
+}
+.icon {
+    width: 5%;
+    height: 10%;
+   
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    
+    
+   
+    
+}
+.icon i {
+   color: green;
+   font-size: 5rem;
+}
+.i1 {
+    background-image: url("WhiteBlackButtonnewpocketromved.jpg");
+    background-size: cover;
+}
+.i2 {
+    background-image: url("fp2.jpg");
+    background-size: cover;
+}
+.i3 {
+    background-image: url("fp3.jpg");
+    background-size: cover;
+}
+.i4 {
+    background-image: url("fp4.jpg");
+    background-size: cover;
+}
+.i5 {
+    background-image: url("29_da493611-822d-46c5-90a9-c9ddd9d314a7.webp");
+    background-size: cover;
+}
+.i6 {
+    background-image: url("19_9325f334-ae8f-4b41-8ccf-9b40728ccbe3.webp");
+    background-size: cover;
+}
+.i7 {
+    background-image: url("fp7.jpg");
+    background-size: cover;
+}
+.i8 {
+    background-image: url("fp8.jpg");
+    background-size: cover;
+}
+.i9 {
+    background-image: url("fp9.jpg");
+    background-size: cover;
+}
+.i10 {
+    background-image: url("fp10.jpg");
+    background-size: cover;
+}
+.i11 {
+    background-image: url("fp11.jpg");
+    background-size: cover;
+}
+.i12 {
+    background-image: url("fp12.jpg");
+    background-size: cover;
+}
+.del {
+    text-decoration: line-through;
+    color: #737373;
+    position: absolute;
+    right: 6rem;
+    top: 2rem;
+}
+.ins {
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+}
+.para-p {
+    margin-top: 0.5rem;
+    position: relative;
+    font-size: 1rem;
+}
+.off {
+    width: 6rem;
+    height: 1.5rem;
+    color: red;
+    background-color: white;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.import {
+    width: 10rem;
+    height: 2rem;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    
+}
+.import p {
+    position: relative;
+    top: 0.5rem;
+    left: 0.4rem;
+}
+.of {
+     width: 4rem;
+    height: 1.5rem;
+    color: red;
+    background-color: white;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.ofp {
+    position: relative;
+    top: 0.2rem;
+}
+.new {
+    position: absolute;
+    top: 3rem;
+    left: 0.5rem;
+    height: 1.5rem;
+    width: 2.5rem;
+    color: black;
+    background-color: white;
+}
+.ne {
+    position: relative;
+    top: 0.2rem;
+    left: 0.2rem;
+}
+.img1{
+position:relative;
+right: 10px;
+top: 200px;
+bottom: 10px;
+left: 10px;
+}
